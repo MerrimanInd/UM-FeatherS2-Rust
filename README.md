@@ -13,8 +13,8 @@ In 2024 Espressif got behind the Rust efforts and brought the development in-hou
 * `esp-generate` - a CLI tool for creating template projects
 * `espflash` - a dedicated tool for flashing and debugging ESP boards
 
-[!WARNING]
-If you're searching the internet for Rust on ESP32 examples note that blog posts, code snippets, and repos from prior to mid-2024 may be using the older community HAL. While there's some similarities the two HALs were a breaking change and older examples may not play nicely with the current ecosystem.
+> [!WARNING]
+> If you're searching the internet for Rust on ESP32 examples note that blog posts, code snippets, and repos from prior to mid-2024 may be using the older community HAL. While there's some similarities the two HALs were a breaking change and older examples may not play nicely with the current ecosystem.
 
 ## Resources
 [Rust on Espressif Github org](https://github.com/esp-rs)
