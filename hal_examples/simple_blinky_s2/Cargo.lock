@@ -766,7 +766,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "feathers2-rs"
+name = "feathers2-simple-blinky"
 version = "0.1.0"
 dependencies = [
  "critical-section",

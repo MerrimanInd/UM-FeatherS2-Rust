@@ -1,5 +1,6 @@
 [target.xtensa-esp32s2-none-elf]
-runner = "espflash flash --monitor --chip esp32s2 --log-format defmt"
+# runner = "espflash flash --monitor --chip esp32s2 --log-format defmt"
+runner = "probe-rs run --chip=esp32s2 --preverify --always-print-stacktrace --no-location --catch-hardfault"
 
 [env]
 DEFMT_LOG="info"
